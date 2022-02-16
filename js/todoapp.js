@@ -59,31 +59,3 @@ document.addEventListener('alpine:init', () => {
         }
     }));
 })
-/* window.todoapp = function () {
-    return {
-        todos: [],
-        newTodo: '',
-        get active(){
-            return this.todos.filter(todo => ! todo.completed )
-        },
-        get completedTodo(){
-            return this.todos.filter(todo => todo.completed )
-        },
-        addTodo(){
-            this.todos.push({
-                id: this.todos.length + 1,
-                body: this.newTodo,
-                completed: false
-            })
-            this.newTodo = ' '
-        },
-        editTodo(todo) {
-            
-        },
-        removeTodo(todo){
-            let position = this.todos.indexOf(todo)
-
-            this.todos.splice(position, 1)
-        }
-    }
-} */
